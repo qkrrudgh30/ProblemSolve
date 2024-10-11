@@ -128,6 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Implementation.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClimbingTheLeaderboard.h" />
+    <ClInclude Include="D3SurfaceArea.h" />
+    <ClInclude Include="Encryption.h" />
+    <ClInclude Include="ExtraLongFactorials.h" />
+    <ClInclude Include="FormingAMagicSquare.h" />
+    <ClInclude Include="TheGridSearch.h" />
+    <ClInclude Include="TheTimeInWords.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
