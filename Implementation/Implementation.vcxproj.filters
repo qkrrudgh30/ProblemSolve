@@ -71,5 +71,35 @@
     <ClInclude Include="B1159.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="B11655.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B9996.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B2559.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B1620.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B9375.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B1213.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B1940.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B3986.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B1629.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B4375.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

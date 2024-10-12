@@ -135,7 +135,17 @@
     <ClInclude Include="B10808.h" />
     <ClInclude Include="B10988.h" />
     <ClInclude Include="B1159.h" />
+    <ClInclude Include="B1213.h" />
+    <ClInclude Include="B1620.h" />
+    <ClInclude Include="B11655.h" />
+    <ClInclude Include="B1629.h" />
+    <ClInclude Include="B1940.h" />
+    <ClInclude Include="B2559.h" />
     <ClInclude Include="B2979.h" />
+    <ClInclude Include="B3986.h" />
+    <ClInclude Include="B4375.h" />
+    <ClInclude Include="B9375.h" />
+    <ClInclude Include="B9996.h" />
     <ClInclude Include="H3DSurfaceArea.h" />
     <ClInclude Include="HAbosolutePermutation.h" />
     <ClInclude Include="HAlmostSorted.h" />
