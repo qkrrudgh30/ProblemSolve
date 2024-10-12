@@ -1,53 +1,72 @@
+﻿/*
+정수 n의 팩토리얼, 즉 n!은 다음과 같이 정의됩니다: n!=n×(n−1)×(n−2)×⋯×1
+주어진 정수 n에 대해 팩토리얼 값을 계산하고 출력하세요.
+
+예를 들어, n=5인 경우, 5!=5×4×3×2×1=120이 됩니다.
+
+예시
+입력 예시 1
+코드 복사
+5
+출력 예시 1
+코드 복사
+120
+*/
+
 #pragma once
 
-#include <iostream>
 #include <stack>
 
-using namespace std;
+void ProductForFactorial(std::stack<int>& InReversedResult, int InNumber)
+{
+	std::stack<int> NewReversedResult;
+	int Carry = 0;
 
-void Factoricl(stack<int>& InResult, int InNumber) {
-    stack<int> TempStack;
-    int Carry = 0;
+	while (InReversedResult.empty() == false)
+	{
+		int Digit = InReversedResult.top();
+		InReversedResult.pop();
 
-    while (!InResult.empty()) {
-        int Digit = InResult.top();
-        InResult.pop();
+		int Product = Digit * InNumber + Carry;
+		int NewDigit = (Product) % 10;
+		Carry = (Product) / 10;
 
-        int Product = Digit * InNumber + Carry;
-        TempStack.push(Product % 10);
-        Carry = Product / 10;
-    }
+		NewReversedResult.push(NewDigit);
+	}
 
-    while (Carry > 0) {
-        TempStack.push(Carry % 10);
-        Carry /= 10;
-    }
+	while (0 < Carry)
+	{
+		NewReversedResult.push(Carry % 10);
+		Carry /= 10;
+	}
 
-    // Move results back to InResult in reverse order
-    while (!TempStack.empty()) {
-        InResult.push(TempStack.top());
-        TempStack.pop();
-    }
+	while (NewReversedResult.empty() == false)
+	{
+		InReversedResult.push(NewReversedResult.top());
+		NewReversedResult.pop();
+	}
 }
 
 void extraLongFactorials(int n) {
-    stack<int> ReversedResult;
-    ReversedResult.push(1);
+	std::stack<int> ReversedResult;
+	ReversedResult.push(1);
 
-    for (int i = 2; i <= n; ++i) {
-        Factoricl(ReversedResult, i);
-    }
+	for (int i = 2; i <= n; ++i)
+	{
+		ProductForFactorial(ReversedResult, i);
+	}
 
-    // Print directly from the stack without extra copying
-    stack<int> OutputStack;
-    while (!ReversedResult.empty()) {
-        OutputStack.push(ReversedResult.top());
-        ReversedResult.pop();
-    }
+	std::stack<int> Result;
+	while (ReversedResult.empty() == false)
+	{
+		Result.push(ReversedResult.top());
+		ReversedResult.pop();
+	}
 
-    while (!OutputStack.empty()) {
-        cout << OutputStack.top();
-        OutputStack.pop();
-    }
-    cout << endl;
+	while (Result.empty() == false)
+	{
+		printf("%d", Result.top());
+		Result.pop();
+	}
+	printf("\n");
 }

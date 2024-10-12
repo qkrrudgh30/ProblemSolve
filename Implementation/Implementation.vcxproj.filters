@@ -15,14 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Implementation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="B2309.h">
       <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Implementation.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +99,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="B4375.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBiggerIsGreater.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -146,6 +146,7 @@
     <ClInclude Include="B4375.h" />
     <ClInclude Include="B9375.h" />
     <ClInclude Include="B9996.h" />
+    <ClInclude Include="HBiggerIsGreater.h" />
     <ClInclude Include="H3DSurfaceArea.h" />
     <ClInclude Include="HAbosolutePermutation.h" />
     <ClInclude Include="HAlmostSorted.h" />
