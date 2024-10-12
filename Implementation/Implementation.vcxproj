@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="B2309.h" />
     <ClCompile Include="Implementation.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="B10808.h" />
+    <ClInclude Include="B10988.h" />
+    <ClInclude Include="B2979.h" />
     <ClInclude Include="H3DSurfaceArea.h" />
     <ClInclude Include="HAbosolutePermutation.h" />
     <ClInclude Include="HAlmostSorted.h" />

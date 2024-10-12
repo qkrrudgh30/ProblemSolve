@@ -21,6 +21,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="B2309.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="H3DSurfaceArea.h">
@@ -54,6 +57,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HTheTimeInWords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B10808.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B2979.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="B10988.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
