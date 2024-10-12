@@ -1,18 +1,15 @@
 #pragma once
 
 #include <iostream>
-#include <vector>
 #include <stack>
 
 using namespace std;
 
-void Factoricl(stack<int>& InResult, int InNumber)
-{
+void Factoricl(stack<int>& InResult, int InNumber) {
     stack<int> TempStack;
     int Carry = 0;
 
-    while (InResult.empty() == false)
-    {
+    while (!InResult.empty()) {
         int Digit = InResult.top();
         InResult.pop();
 
@@ -21,40 +18,36 @@ void Factoricl(stack<int>& InResult, int InNumber)
         Carry = Product / 10;
     }
 
-    while (0 < Carry)
-    {
+    while (Carry > 0) {
         TempStack.push(Carry % 10);
         Carry /= 10;
     }
 
-    while (TempStack.empty() == false)
-    {
+    // Move results back to InResult in reverse order
+    while (!TempStack.empty()) {
         InResult.push(TempStack.top());
         TempStack.pop();
     }
 }
 
-void extraLongFactorials(int n)
-{
+void extraLongFactorials(int n) {
     stack<int> ReversedResult;
     ReversedResult.push(1);
 
-    for (int i = 2; i <= n; ++i)
-    {
+    for (int i = 2; i <= n; ++i) {
         Factoricl(ReversedResult, i);
     }
 
-    vector<int> Result;
-    while (ReversedResult.empty() == false)
-    {
-        Result.push_back(ReversedResult.top());
+    // Print directly from the stack without extra copying
+    stack<int> OutputStack;
+    while (!ReversedResult.empty()) {
+        OutputStack.push(ReversedResult.top());
         ReversedResult.pop();
     }
 
-    size_t ResultSize = Result.size();
-    for (int i = ResultSize - 1; i >= 0; --i)
-    {
-        cout << Result[i];
+    while (!OutputStack.empty()) {
+        cout << OutputStack.top();
+        OutputStack.pop();
     }
     cout << endl;
 }

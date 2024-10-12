@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="B10808.h" />
     <ClInclude Include="B10988.h" />
+    <ClInclude Include="B1159.h" />
     <ClInclude Include="B2979.h" />
     <ClInclude Include="H3DSurfaceArea.h" />
     <ClInclude Include="HAbosolutePermutation.h" />

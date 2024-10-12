@@ -68,5 +68,8 @@
     <ClInclude Include="B10988.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="B1159.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
