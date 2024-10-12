@@ -131,13 +131,17 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ClimbingTheLeaderboard.h" />
-    <ClInclude Include="D3SurfaceArea.h" />
-    <ClInclude Include="Encryption.h" />
-    <ClInclude Include="ExtraLongFactorials.h" />
-    <ClInclude Include="FormingAMagicSquare.h" />
-    <ClInclude Include="TheGridSearch.h" />
-    <ClInclude Include="TheTimeInWords.h" />
+    <ClInclude Include="H3DSurfaceArea.h" />
+    <ClInclude Include="HAbosolutePermutation.h" />
+    <ClInclude Include="HAlmostSorted.h" />
+    <ClInclude Include="HClimbingTheLeaderboard.h" />
+    <ClInclude Include="HEncryption.h" />
+    <ClInclude Include="HExtraLongFactorials.h" />
+    <ClInclude Include="HFormingAMagicSquare.h" />
+    <ClInclude Include="HLarryArray.h" />
+    <ClInclude Include="HTheBombermanGame.h" />
+    <ClInclude Include="HTheGridSearch.h" />
+    <ClInclude Include="HTheTimeInWords.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

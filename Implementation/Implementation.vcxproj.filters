@@ -23,25 +23,37 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FormingAMagicSquare.h">
+    <ClInclude Include="H3DSurfaceArea.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ClimbingTheLeaderboard.h">
+    <ClInclude Include="HAbosolutePermutation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ExtraLongFactorials.h">
+    <ClInclude Include="HAlmostSorted.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Encryption.h">
+    <ClInclude Include="HClimbingTheLeaderboard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TheTimeInWords.h">
+    <ClInclude Include="HEncryption.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TheGridSearch.h">
+    <ClInclude Include="HExtraLongFactorials.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D3SurfaceArea.h">
+    <ClInclude Include="HFormingAMagicSquare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HLarryArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTheBombermanGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTheGridSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTheTimeInWords.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
