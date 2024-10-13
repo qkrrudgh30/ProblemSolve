@@ -104,5 +104,23 @@
     <ClInclude Include="HBiggerIsGreater.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HSherlockAndTheValidString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HHighestValuePalindrome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMaximumPalindrome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HSherlockAndAnagram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HCommonChild.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HBearAndSteadyGene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
